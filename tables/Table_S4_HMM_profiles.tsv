@@ -1,0 +1,6 @@
+Pfam_accession	Domain_name	Associated_system	Biological_interpretation
+PF02614	RND efflux transporter	Cus/Sil-like systems	Copper/silver-associated efflux
+PF00394	Multicopper oxidase	Pco/Cop systems	Copper oxidation and detoxification
+PF03960	ArsC	Arsenic resistance	Arsenate reduction
+PF13450	MerA-like reductase	Mercury resistance	Mercuric reductase-like activity
+PF01545	Cation efflux	Czc-like systems	Cobalt/zinc/cadmium efflux

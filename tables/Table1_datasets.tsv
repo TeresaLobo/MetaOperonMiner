@@ -1,0 +1,8 @@
+Sample	Group	SRA_accession	Environment	Sequencing_strategy	Read_layout	Use_in_operon_analysis
+SRR8870486	River	SRR8870486	Polluted river metagenome	Shotgun metagenomics	Paired-end	Yes
+SRR8870488	River	SRR8870488	Polluted river metagenome	Shotgun metagenomics	Paired-end	Yes
+SRR12447091	Wastewater	SRR12447091	Wastewater metagenome	Shotgun metagenomics	Paired-end	Screened
+SRR12447092	Wastewater	SRR12447092	Wastewater metagenome	Shotgun metagenomics	Paired-end	Screened
+SRR12447093	Wastewater	SRR12447093	Wastewater metagenome	Shotgun metagenomics	Paired-end	Screened
+SRR12447094	Wastewater	SRR12447094	Wastewater metagenome	Shotgun metagenomics	Paired-end	Yes
+SRR12447095	Wastewater	SRR12447095	Wastewater metagenome	Shotgun metagenomics	Paired-end	Screened

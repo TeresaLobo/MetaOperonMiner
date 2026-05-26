@@ -1,0 +1,8 @@
+group	sample	operon_id	contig	start	end	length_bp	strand	n_genes	genes	pfams	systems	operon_class
+wastewater	SRR12447094	SRR12447094_operon_1	k141_58146	3201	11971	8771	+	2	k141_58146_5,k141_58146_10	PF03960,PF13450	ars_arsenate_reductase,mer_mercuric_reductase	arsenic_mosaic_operon
+wastewater	SRR12447094	SRR12447094_operon_2	k141_76365	1	2567	2567	+	2	k141_76365_1,k141_76365_2	PF13450,PF13450	mer_mercuric_reductase,mer_mercuric_reductase	mercury_operon_like
+wastewater	SRR12447094	SRR12447094_operon_3	k141_77998	5436	10882	5447	-	2	k141_77998_9,k141_77998_13	PF13450,PF13450	mer_mercuric_reductase,mer_mercuric_reductase	mercury_operon_like
+wastewater	SRR12447094	SRR12447094_operon_4	k141_30047	10106	21665	11560	-	2	k141_30047_9,k141_30047_18	PF13450,PF13450	mer_mercuric_reductase,mer_mercuric_reductase	mercury_operon_like
+wastewater	SRR12447094	SRR12447094_operon_5	k141_5049	5508	9472	3965	-	2	k141_5049_8,k141_5049_10	PF13450,PF13450	mer_mercuric_reductase,mer_mercuric_reductase	mercury_operon_like
+river	SRR8870486	SRR8870486_operon_1	k119_59393	70006	74769	4764	-	3	k119_59393_64,k119_59393_66,k119_59393_67	PF13450,PF13450,PF13450	mer_mercuric_reductase,mer_mercuric_reductase,mer_mercuric_reductase	mercury_operon_like
+river	SRR8870488	SRR8870488_operon_1	k119_34272	11993	14939	2947	+	2	k119_34272_11,k119_34272_12	PF13450,PF13450	mer_mercuric_reductase,mer_mercuric_reductase	mercury_operon_like

@@ -1,0 +1,14 @@
+*.fastq
+*.fastq.gz
+*.sra
+*.bam
+*.sam
+*.bt2
+*.tmp
+fasterq.tmp*
+data/
+results/raw/
+results/assembly_subsample/
+database/pfam/Pfam-A.hmm
+database/pfam/*.h3*
+__pycache__/

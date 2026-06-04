@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this workflow, please cite it as below."
+title: "MetaOperonMiner: metagenome-resolved reconstruction of metal resistance operon-like modules in aquatic environments"
+version: "1.0.0"
+date-released: "2026-06-04"
+type: software
+authors:
+  - family-names: "Lôbo"
+    given-names: "Teresa de Lisieux Guedes Ferreira"
+    affiliation: "Federal University of Alagoas"
+repository-code: "https://github.com/TeresaLobo/MetaOperonMiner"
+url: "https://github.com/TeresaLobo/MetaOperonMiner"
+license: "MIT"
+keywords:
+  - metagenomics
+  - resistome
+  - mobilome
+  - heavy metals
+  - operons
+  - aquatic microbiomes
+  - HMMER
+  - environmental microbiology
+abstract: "MetaOperonMiner is a reproducible bioinformatics workflow for reconstructing candidate metal resistance operon-like modules from environmental metagenomic assemblies using HMM-based annotation, contig-level genomic organization, and mobilome-associated screening."

@@ -1,0 +1,22 @@
+{
+  "title": "MetaOperonMiner: metagenome-resolved reconstruction of metal resistance operon-like modules in aquatic environments",
+  "upload_type": "software",
+  "description": "A reproducible bioinformatics workflow for detecting, reconstructing, and visualizing candidate metal resistance operon-like modules from environmental metagenomic assemblies.",
+  "creators": [
+    {
+      "name": "Lôbo, Teresa de Lisieux Guedes Ferreira",
+      "affiliation": "Federal University of Alagoas"
+    }
+  ],
+  "keywords": [
+    "metagenomics",
+    "resistome",
+    "mobilome",
+    "heavy metals",
+    "operons",
+    "aquatic microbiomes",
+    "environmental microbiology"
+  ],
+  "license": "MIT",
+  "access_right": "open"
+}

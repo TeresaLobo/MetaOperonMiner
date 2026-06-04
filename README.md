@@ -1,54 +1,48 @@
-# MetaOperonMiner: metagenome-resolved reconstruction of metal resistance operon-like modules
+# MetaOperonMiner
 
-This repository contains the reproducible workflow used to identify and reconstruct candidate metal resistance operon-like modules from public environmental metagenomes.
+**Metagenome-resolved reconstruction of metal resistance operon-like modules in aquatic environments**
 
-## Study overview
+[![GitHub release](https://img.shields.io/github/v/release/TeresaLobo/MetaOperonMiner)](https://github.com/TeresaLobo/MetaOperonMiner/releases)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PLACEHOLDER.svg)](https://doi.org/10.5281/zenodo.PLACEHOLDER)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Reproducible workflow](https://img.shields.io/badge/workflow-reproducible-brightgreen.svg)](README.md)
 
-This study investigates the genomic organization of metal-resistance-associated systems in environmental metagenomes. Instead of quantifying isolated resistance genes only, the workflow reconstructs candidate operon-like modules by integrating HMM-based domain detection with contig-level genomic coordinates.
+## Overview
 
-## Environmental groups
+MetaOperonMiner is a reproducible bioinformatics workflow designed to identify and reconstruct candidate metal resistance operon-like modules from public environmental metagenomes.
 
-Two environmental groups were analyzed:
+The workflow integrates:
 
-- Wastewater metagenomes
-- Polluted river metagenomes
+- metagenomic read preprocessing;
+- quality filtering;
+- read subsampling;
+- de novo metagenomic assembly;
+- gene prediction;
+- HMM-based domain screening;
+- reconstruction of operon-like modules;
+- mobilome-associated screening;
+- statistical analysis;
+- publication-ready figure generation.
 
-## Main workflow
+This repository supports the manuscript:
 
-1. Download public SRA datasets
-2. Convert SRA files to FASTQ
-3. Perform quality control with fastp
-4. Subsample reads using seqtk
-5. Assemble metagenomes with MEGAHIT
-6. Predict genes with Prodigal
-7. Screen predicted proteins using HMMER and Pfam
-8. Filter metal-resistance-associated domains
-9. Reconstruct candidate operon-like modules
-10. Generate statistical summaries and figures
+**Metagenomic reconstruction of mobile-associated metal resistance operon-like modules in aquatic environments**
 
-## Metal resistance systems screened
+## Scientific rationale
 
-| Pfam | System | Interpretation |
-|---|---|---|
-| PF02614 | Cus/Sil-like | Copper/silver efflux |
-| PF00394 | Pco/Cop | Multicopper oxidase |
-| PF03960 | ArsC | Arsenic resistance |
-| PF13450 | Mer-like | Mercury resistance |
-| PF01545 | Czc-like | Cation efflux |
+Environmental microbiomes exposed to anthropogenic contamination are shaped by multiple selective pressures, including heavy metals, biocides, antibiotics, and industrial pollutants. Most environmental resistome studies focus on the abundance of individual resistance genes. MetaOperonMiner instead focuses on genomic organization by reconstructing candidate operon-like modules from assembled metagenomic contigs.
 
-## Main outputs
+## Workflow
 
-- `metal_genes_detected.tsv`
-- `metal_operon_candidates.tsv`
-- assembly statistics
-- operon distribution figures
-- heatmap of resistance systems
-- operon network figure
-
-## Reproducibility
-
-The workflow was executed in Linux Ubuntu using Bash and Python scripts. Raw sequencing files are not deposited in this repository because they are publicly available in the NCBI SRA.
-
-## Citation
-
-If you use this workflow, please cite this repository and the associated manuscript.
+```mermaid
+flowchart TD
+A[Public SRA metagenomes] --> B[FASTQ conversion]
+B --> C[Quality filtering with fastp]
+C --> D[Read subsampling with seqtk]
+D --> E[Metagenomic assembly with MEGAHIT]
+E --> F[Gene prediction with Prodigal]
+F --> G[HMM screening with Pfam/HMMER]
+G --> H[Metal-resistance domain filtering]
+H --> I[Operon-like module reconstruction]
+I --> J[Mobilome screening]
+J --> K[Statistics and visualization]

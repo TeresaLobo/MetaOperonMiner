@@ -3,7 +3,7 @@
 **Metagenome-resolved reconstruction of metal resistance operon-like modules in aquatic environments**
 
 [![GitHub release](https://img.shields.io/github/v/release/TeresaLobo/MetaOperonMiner)](https://github.com/TeresaLobo/MetaOperonMiner/releases)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PLACEHOLDER.svg)](https://doi.org/10.5281/zenodo.PLACEHOLDER)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20544294)](https://doi.org/10.5281/zenodo.20544294)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Reproducible workflow](https://img.shields.io/badge/workflow-reproducible-brightgreen.svg)](README.md)
 
